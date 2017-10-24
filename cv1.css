@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lora|Rokkitt|Tangerine');
+body{
+    background-color: whitesmoke;    
+    font-family: 'Lora', serif;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    position: relative;
+}
+
+header img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 143px;
+    right: 63px;
+    float: right;
+}
+
+
+main{
+
+}
+
+h1{
+    color:black;
+    font-weight: bold;
+}
+
+h2{
+    color : #8A4D60;
+}
+
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    margin-left: auto;
+    font-weight: bold;
+    background-color: #8CA89C;
+}
+h4{
+    font-style:italic;
+    font-size: 1.5em;
+}
+
+section { 
+    display: block;
+    background-color: buttonface;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.titre{
+    font-weight: bold;   
+}
+
+a{
+    color: #A37080;
+    text-decoration: none;
+}
+
+a:link{
+    color: #478E75;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #682F41;
+}
+
+#formation{
+    background-color: buttonface;
+}
+
+blockquote { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: #A37080;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+blockquote { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: #A37080;
+    font-family: 'Dancing Script', cursive;
+}
+#com img{
+    width:150px;
+    height:150px;
+    padding: 3px;
+}
+
+.icon-database{
+    color:#FFD885;
+    font-size: 5em;
+}
+
+.icon-html5{
+    color:#274647; 
+    font-size: 5em;
+}
+
+.icon-css3{
+    color: #65B8C0;
+    font-size: 5em;
+}
+
+.icon-javascript{
+    font-size: 5em;
+    color:#65B8C0;
+}
+
+.icon-mysql{
+    color: green;
+    font-size: 5em;
+}
+
+.icon-php{
+    font-size: 5em;
+    color: #FFD885;
+}
+
+.icon-git{
+    font-size: 3em;
+}
+.icon-bootstrap{
+    font-size: 5em;
+    color: #274647;
+}
+
+.glyph-sample:hover { color:blue; }
+
+.gauche{
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+.droite{
+    float: right;
+    margin: 0 0 10px 10px;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer {
+    position: relative;
+   
+    height: 150px;
+    clear:both;
+    padding-top:20px;
+}
+
+@media only screen and (min-width:1024px){
+
+    body{
+        margin: auto;
+    }
+
+    #com img{
+        width:150px; 
+
+    }
+}
+
+
+@media only screen and (max-width: 480px)
+{
+
+    #lang{
+        display: none;
+    }
+
+    header{
+        position: absolute;
+        top: 0;
+        position: relative;
+    }   
+
+
+    img{
+        display: none;
+    }
+
+}
+
+
